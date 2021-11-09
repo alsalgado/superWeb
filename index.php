@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- Ref: https://www.php.net/manual/pt_BR/tutorial.forms.php -->
+    <form action="action.php" method="post">
+        <p>Seu nome: <input type="text" name="nome" /></p>
+        <p>Sua idade: <input type="text" name="idade" /></p>
+        <p><input type="submit" /></p>
+    </form>
 </body>
 </html>
